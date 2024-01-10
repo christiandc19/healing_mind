@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.insuranceSection3 {
+    padding: 5rem 0 5rem 0;
+    background: #ffffff;
+}
+
+.insuranceSection3-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.insuranceSection3-content-left {
+    width: 600px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.insuranceSection3-content-left img  {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.insuranceSection3-content-right {
+    width:50%;
+    margin: auto;
+}
+
+
+.insuranceSection3-content-right h2 {
+    font-size: 2rem;
+    color: #5a5c82;
+}
+
+.insuranceSection3-content-right h1 {
+    text-transform: uppercase;
+    color: #977ab3;
+    font-size: 1rem;
+    letter-spacing: 8px; 
+}
+
+.insuranceSection3-content-right p {
+    line-height: 25px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+/* 
+.leaf {
+    position: absolute;
+    width: 15%;
+    left: 25%;
+    bottom: -5%;
+} */
+
+.insurance-section3-btn {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.insurance-section3-btn button {
+    background-color: rgb(153, 210, 233);
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width:1250px)  {
+
+    .insuranceSection3-content-left {
+        border: none;
+    }
+
+    .insuranceSection3-content-right {
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .insuranceSection3-content-right h1, .insuranceSection3-content-right h2, .insuranceSection3-content-right p {
+        text-align: center;
+    }
+
+    .insuranceSection3-content-right h2 {
+        font-size: 2rem;
+    }
+
+    .leaf {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:940px) {
+    .insuranceSection3-content-left {
+        width: 100vw;
+    }
+
+}
+

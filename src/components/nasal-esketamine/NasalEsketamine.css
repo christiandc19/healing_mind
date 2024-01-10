@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+.nasalEsketamine {
+    width: 100%;
+    height: 100vh;
+    background: rgba(21, 3, 27, 0.521);
+    position: relative;
+  }
+  
+  .nasalEsketamine:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/esketamine-bg.webp') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+.nasalEsketamine {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nasalEsketamine .nasalEsketamine-content {
+    display: block;
+    position: absolute;
+    top: 50%;
+    padding: 1rem;
+}
+
+
+.nasalEsketamine h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width:940px) {
+    
+    .mh-iop h1 {
+        font-size: 2rem;
+    }
+
+    
+    .nasalEsketamine h1 {
+        font-size: 2rem;
+    }
+    
+    }

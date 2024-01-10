@@ -1,0 +1,32 @@
+.section5 {
+    width: 100%;
+    padding: 3rem 0;
+}
+
+.section5-content {
+    width: 100%;
+    margin: auto;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+
+.section5-content h2 {
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    font-family: 'Instrument Serif', serif;
+    letter-spacing: 5px;
+}
+
+.section5-content h1 {
+    text-transform: uppercase;
+    color: var(--primary-dark);
+    font-size: 1rem;
+    letter-spacing: 8px; 
+}
+
+@media  screen and (max-width: 940px) {
+    .section5-content h2 {
+        font-size: 2rem;
+    }
+}

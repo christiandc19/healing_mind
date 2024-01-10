@@ -1,0 +1,43 @@
+.topbar {
+    width: 100%;
+    padding: .4rem;
+    background-color: #ffffff;
+}
+
+.topbar .topbar-content {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(238, 241, 243);
+}
+
+.topbar .topbar-content p {
+    padding: 0 1rem;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(12, 111, 156);
+    text-align: left;
+}
+
+.topbar .bar-box1 {
+    width: 25rem;
+    border-right: 1px solid rgba(37, 36, 36, 0.459);
+}
+
+.topbar .bar-box2 {
+    width: 23rem;
+    border-right: 1px solid rgba(19, 18, 18, 0.459);
+}
+
+.topbar span {
+    color: rgb(235, 138, 12);
+}
+@media screen and (max-width: 940px) {
+    .top-hide {
+        display: none;
+    }
+
+    .topbar .bar-box2 {
+        width: 12rem;
+    }
+
+}

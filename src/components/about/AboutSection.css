@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.about-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(29, 28, 29, 0);
+  }
+  
+  .about-container:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/bg2.png') no-repeat center top/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .06;
+  }
+
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem 1rem;
+}
+
+.about-content-left {
+    width: 50%;
+    text-align: left;
+    margin: auto;
+}
+
+.about-content-left img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.about-content-right {
+    width: 600px;
+    margin: auto;
+}
+
+.about-container h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 0 1rem 0;
+    color: var(--primary-color);
+}
+
+.about-container h1 {
+    text-transform: uppercase;
+    color: #fd9b2f;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.about-container h5 {
+    padding: .5rem 0;
+}
+
+.about-content-right p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+
+
+/* button */
+
+.about-btn {
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:940px) {
+    .about-content {
+        flex-wrap: wrap;
+    }
+
+    .about-content-left {
+        width: 95%;
+    }
+    .about-content-right {
+        width: 95%;
+    }
+
+}

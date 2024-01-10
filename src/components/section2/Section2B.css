@@ -1,0 +1,52 @@
+/* Cards */
+
+.section2-cards {
+    padding: 8rem 0;
+    background-color: rgb(153, 210, 233);
+}
+.section2-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.section2-flexItem {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.096);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.096);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.096);
+    border-radius: 1rem;
+}
+
+.section2-flexItem img {
+    width: 70%;
+    height: auto;
+    z-index: -1;
+}
+
+
+.section2-flexItem h1 {
+    font-size: 1rem;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section2-flexItem p {
+    color: rgb(24, 23, 23);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width:700px)  {
+    .section2-flexItem {
+        width: 80%;
+    }
+}
