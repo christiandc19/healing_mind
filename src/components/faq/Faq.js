@@ -11,7 +11,7 @@ const Faq = () => {
 
                 <div className="FAQ-content">
                     <Fade top>
-                    <h1>FREQUENTLY ASKED QUESTIONS</h1>
+                    <h1>LEARN MORE ABOUT TMS</h1>
                     </Fade>
             </div>
         </div>

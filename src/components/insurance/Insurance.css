@@ -8,13 +8,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: #24232377;
+    background: #4b919456;
 }
   
   .insurance:before {
     content: '';
     position: absolute;
-    background: url('../../assets/menu-bg-insurance-min.webp') no-repeat center center/cover;
+    background: url('../../assets/man_smiling.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -24,8 +24,8 @@
     width: 40%;
     display: block;
     position: absolute;
-    top: 40%;
-    left: 10%;
+    bottom: 20%;
+    right: 10%;
     padding: 1rem;
 }
 

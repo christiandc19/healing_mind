@@ -11,7 +11,7 @@ const TMSTherapy = () => {
         <div className='tms-therapy submenu'>
                 <div className="tms-therapy-content">
                     <Fade top>
-                    <h1>TRANSCRANIAL <br/>MAGNETIC <br/>STIMULATION</h1>
+                    <h1>TRANSCRANIAL MAGNETIC <br/>STIMULATION</h1>
                     </Fade>
                 </div>
             </div>

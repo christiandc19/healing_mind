@@ -3,10 +3,10 @@ import './Section2B.css'
 
 import Fade from 'react-reveal/Fade';
 
-import Card1 from '../../assets/section2-1-min.jpg'
-import Card2 from '../../assets/section2-2-min.jpg'
-import Card3 from '../../assets/section2-3-min.jpg'
-import Card4 from '../../assets/section2-4-min.jpg'
+import Card1 from '../../assets/male_nurse.webp'
+import Card2 from '../../assets/nurse_insurance.webp'
+import Card3 from '../../assets/doctor_and_patient.webp'
+import Card4 from '../../assets/doctor_downtime.webp'
 
 const Section2B = () => {
   return (
@@ -16,7 +16,7 @@ const Section2B = () => {
 
                     <Fade left>
                     <div className='section2-flexItem'>
-                        <img src={Card1} alt="Mental Health" loading="lazy"/>
+                        <img src={Card1} alt="Male Nurse" loading="lazy"/>
                         <h1>NON-DRUG AND FDA-CLEARED</h1>
                         <p>Non-invasive with no drug-related side effects.</p>                        
                     </div>

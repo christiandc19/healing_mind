@@ -6,7 +6,7 @@ import logoIcon from '../../assets/nav-logo-icon.png'
 import nasal from '../../assets/nasal.png'
 
 import {AiFillCaretDown } from "react-icons/ai";
-import Topbar from '../../components/topbar/Topbar';
+// import Topbar from '../../components/topbar/Topbar';
 
 import './NavbarStyles.css'
 
@@ -46,13 +46,13 @@ const Navbar = () => {
 
     return (
         <>
-        <Topbar />
+        {/* <Topbar /> */}
 
-        <div className='navbar'>
+        <div className='navbar' name="top">
 
             <div className='nav-box container'>
 
-                <div className="navbar-logo show">
+                <div className="navbar-logo">
                     <Link to='/'>
                             <img src={logo}  alt="Kings TMS" loading="lazy"/>
                     </Link>
@@ -101,11 +101,11 @@ const Navbar = () => {
 
 
 
-                    <div className="navbar-logo hide">
+                    {/* <div className="navbar-logo hide">
                     <Link to='/'>
                             <img src={logo}  alt="Kings TMS" loading="lazy"/>
                     </Link>
-                    </div>  
+                    </div>   */}
 
 
 

@@ -143,7 +143,7 @@ const Footer = () => {
           </div>
           <p className="copyright">
             <p>
-              &copy; 2023 Kings TMS Therapy Clinic Inc. All
+              &copy; 2024 Healing Mind TMS Therapy Clinic Inc. All
               rights reserved
             </p>
           </p>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 import Fade from 'react-reveal/Fade';
 
-import section1 from '../../assets/section2-5.webp'
+import section1 from '../../assets/apollo-tms-therapy-system-callouts-1.png'
 
 // import { BsGear } from "react-icons/bs";
 // import { BiMagnet } from "react-icons/bi";
@@ -16,10 +16,9 @@ const Section1 = () => {
     
     <>
 
-
       <div className="section1">
 
-        <div className="section1-content container">
+        <div className="section1-content">
         <Fade left>
           <div className="section1-left">
             <img src={section1} alt="banner" border="0" />

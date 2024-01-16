@@ -6,7 +6,7 @@ import { BsPhone } from 'react-icons/bs';
 
 const Topbar = () => {
   return (
-    <div className="topbar" name="top">
+    <div className="topbar">
       <div className="topbar-content container">
         <div className="address bar-box1 top-hide">
           <p><span><MdLocationPin />&nbsp;</span> 7454 Melrose Ave., Los Angeles CA 90046</p>

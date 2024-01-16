@@ -1,68 +1,58 @@
-import React from 'react'
+import React from "react";
+import { Link as LinkRoll } from "react-scroll";
 import { Link } from 'react-router-dom';
-import { Link as LinkRoll } from 'react-scroll'
-// import Fade from 'react-reveal/Fade';
-import './Hero.css'
+import Zoom from 'react-reveal/Zoom';
 
-import BgVideo from '../../assets/kings-vbg2.mp4'
-
+import "./Hero.css";
 
 const Hero = () => {
-    return (
-<>        
+  return (
+    <>
+<figure>
 
-        <div className='hero'>
-            <video src={BgVideo} autoPlay muted loop playsInline className='video-bg' />
+	<div class="imagesContainer">
 
+  <div className="hero-caption">
 
+    <Zoom duration={1000}>
+      <h1>HEALING <span>MIND</span> </h1>
+    </Zoom>
+    <Zoom duration={3000}>
+    <h1>TMS <span>THERAPY</span></h1>
+    </Zoom>
 
-            <div className="hero-container">
+    <Zoom duration={4000}>
+    <h2>Find out how TMS can help you overcome depression</h2>
+    </Zoom>
 
+    <Zoom duration={5000}>
+    <p>" It's Time To Feel Better "</p>
+    </Zoom>
 
-
-            <div className="content">
-                        <h1 className='fade-in one'>It's time</h1>
-                        <h1 className="fade-in two">to feel<span className="fade-in three"> better.</span></h1>
-                        <h2 className='fade-in four'> Find out how TMS can help you overcome depression.</h2>
-                        <br />
-                        <div className='hero-btns'>
-
-                        <div className='hero-btn fade-in four'>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to="/contact">
-                        <button>CALL US</button>
-                        </Link>
-                        </LinkRoll>
-                        </div>
-
-                        <div className='hero-btn fade-in four hero-btn2'>
-                        <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500} >
-                        <Link to="/tms-therapy">
-                        <button>LEARN MORE</button>
-                        </Link>
-                        </LinkRoll>
-                        </div>
-
-
-                        </div>
-
-                    <br />
-                    <div className='fade-in five'>
-                    <p><i>Reigniting Hope, Restoring Lives.</i></p>
-                    </div>
-                </div>
-
-
-
-
-
+    <LinkRoll
+                activeClass="active"
+                to="top"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+          <Link to="/contact">
+            <div className="hero-btn">
+              <button>CALL US</button>
             </div>
-        </div>
+          </Link>
+      </LinkRoll>
+
+  </div>
 
 
-</>
+		<div class="imageDiv image1">
+    </div>
+		<div class="imageDiv image2 fadeInClass"></div>
+	</div>
+</figure>
+    </>
+  );
+};
 
-    )
-}
-
-export default Hero
+export default Hero;

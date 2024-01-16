@@ -11,28 +11,20 @@
   .section1:before {
     content: '';
     position: absolute;
-    background: url('../../assets/bg4.png') no-repeat center center/cover;
+    /* background: url('../../assets/bg4.png') no-repeat center center/cover; */
     height: 100%;
     width: 100%;
     z-index: -1;
     opacity: .08;
   }
 
-
-  .tools {
-    width: 100%;
-    height: auto;
-  }
-
-
 .section1-content {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 1rem;
-    padding: 3rem 1rem;
+    padding: 5rem 1rem;
 }
-
 
 .section1-left {
     width: 550px;

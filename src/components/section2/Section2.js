@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from 'react-scroll'
 
 
-import section2 from '../../assets/apollo.webp'
+import section2 from '../../assets/section2.jpg'
 
 const Section2 = () => {
   return (
     <>
       <div className="section2 ">
 
-        <div className="section2-content container">  
+        <div className="section2-content">  
                 <Fade left>
                 <div className="section2-content-left">
                     <div className="section2-header">

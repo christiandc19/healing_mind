@@ -2,7 +2,7 @@
 
 .section2-cards {
     padding: 8rem 0;
-    background-color: rgb(153, 210, 233);
+    background-color: #10aac51c;
 }
 .section2-flex {
     display: flex;
@@ -13,18 +13,16 @@
 
 .section2-flexItem {
     width: 300px;
-    height: auto;
     text-align: center;
     padding: 1rem 0;
-    background-color: white;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.096);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.096);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.096);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.034);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.034);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.034);
     border-radius: 1rem;
 }
 
 .section2-flexItem img {
-    width: 70%;
+    width: 100%;
     height: auto;
     z-index: -1;
 }
