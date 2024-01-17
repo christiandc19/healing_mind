@@ -10,10 +10,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    padding: 1rem;
 }
 
 .insuranceSection3-content-left {
-    width: 600px;
+    width: 700px;
     text-align: center;
     padding: 1rem;
 }

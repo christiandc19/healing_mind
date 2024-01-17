@@ -1,6 +1,8 @@
 import React from "react";
 import "./Section2.css";
 import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+
 import { Link } from 'react-router-dom';
 import { Link as LinkRoll } from 'react-scroll'
 
@@ -13,7 +15,7 @@ const Section2 = () => {
       <div className="section2 ">
 
         <div className="section2-content">  
-                <Fade left>
+                <Fade bottom>
                 <div className="section2-content-left">
                     <div className="section2-header">
                 <h1>Is TMS therapy right for you?</h1>
@@ -53,11 +55,11 @@ const Section2 = () => {
             </div>
             </Fade>
 
-            <Fade right>
-            <div className="section2-content-right">
-                <img src={section2} alt="banner" border="0" />
-            </div>
-            </Fade>
+            <Zoom duration={2000}>
+              <div className="section2-content-right">
+                  <img src={section2} alt="banner" border="0" />
+              </div>
+            </Zoom>
 
         </div>
 

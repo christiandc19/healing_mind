@@ -29,6 +29,7 @@ const Hero = () => {
     <p>" It's Time To Feel Better "</p>
     </Zoom>
 
+    <Zoom duration={4500}>
     <LinkRoll
                 activeClass="active"
                 to="top"
@@ -42,6 +43,7 @@ const Hero = () => {
             </div>
           </Link>
       </LinkRoll>
+    </Zoom>
 
   </div>
 

@@ -15,11 +15,12 @@
     width: 300px;
     text-align: center;
     padding: 1rem 0;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.034);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.034);
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.034);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(194, 192, 192, 0.034);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(192, 192, 192, 0.034);
+    box-shadow: 10px 10px 5px 0px rgba(143, 143, 143, 0.034);
     border-radius: 1rem;
 }
+
 
 .section2-flexItem img {
     width: 100%;

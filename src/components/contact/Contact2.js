@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
-import Pin from "../../assets/pin.png";
-import Call from "../../assets/Call.png";
-import Email from "../../assets/email.png";
+
+import { FiMapPin, FiPhone } from "react-icons/fi";
+import { MdAlternateEmail } from "react-icons/md";
 
 
 
@@ -60,10 +60,10 @@ const ContactForm = () => {
 
                       <div class="left-side">
 
-                      <iframe width="100%" height="500" title="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=7454%20Melrose%20Ave.,%20Los%20Angeles%20CA%2090046+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
+                      <iframe width="100%" height="500" title="map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=17822%20Beach%20Blvd.%20%20Suite%20200%20%20Huntington%20Beach,%20CA%2092647+(Healing%20Mind%20TMS%20Clinic)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/population/">Calculate population in area</a></iframe>
 
                       </div>
-
+ 
 
                       <div class="right-side">
                           <div class="topic-text">Send us a message</div> <br/>
@@ -88,7 +88,7 @@ const ContactForm = () => {
                                   <input className="contact-btn" type="submit" value="Submit" />
 
                                   <div className="textarea2 feedback hidden">
-                                  <textarea name="message2" cols="50" rows="1" required>Message Sent to Kings TMS Clinic!</textarea>
+                                  <textarea name="message2" cols="50" rows="1" required>Message Sent to Healing Mind Clinic!</textarea>
                                   </div>
 
                                 </form>
@@ -100,27 +100,27 @@ const ContactForm = () => {
 
                           <div class="contact-card address details">
                             <div className="card-icon">
-                              <img src={Pin} alt="Pin Icon" loading="lazy"/>
+                              <h2><FiMapPin /></h2>
                             </div>
                             <h1>Address</h1>
-                            <div class="text-one">7454 Melrose Ave., </div>
-                            <div class="text-two">Los Angeles CA 90046</div>
+                            <div class="text-one">17822 Beach Blvd. Suite 200</div>
+                            <div class="text-two">Huntington Beach, CA 92647</div>
                           </div>
 
                           <div class="contact-card phone details">
                             <div className="card-icon">
-                              <img src={Call} alt="Pin Icon" loading="lazy"/>
+                            <h2><FiPhone /></h2>
                             </div>
-                            <h1>Phone</h1>
-                            <div class="text-one"><a href="tel:3233196219"> +1  (323) 319-6219</a></div>
+                            <h1>Phone/Fax</h1>
+                            <div class="text-one"><a href="tel:3232825838"> +1  (323) 282-5838</a></div>
                           </div>
 
                           <div class="contact-card email details">
                             <div className="card-icon">
-                              <img src={Email} alt="Pin Icon" loading="lazy"/>
+                            <h2><MdAlternateEmail /></h2>
                             </div>
                             <h1>Email</h1>
-                            <div class="text-one">info@kingstms.com</div>
+                            <div class="text-one">info@healingmind.biz</div>
                           </div>
 
                       </div>

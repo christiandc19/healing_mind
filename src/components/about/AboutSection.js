@@ -13,9 +13,9 @@ const AboutSection = () => {
           </div>
 
           <div className="about-content-right">
-            <h1>Welcome to Kings TMS Therapy Clinic</h1>
+            <h1>Welcome to Healing Mind Therapy Clinic</h1>
             <p>
-            At Kings TMS Therapy Clinic, we're dedicated to providing innovative and effective solutions for mental health challenges. Our team of experienced professionals is committed to delivering compassionate care, utilizing cutting-edge Transcranial Magnetic Stimulation (TMS) therapy.
+            At Healing Mind Therapy Clinic, we're dedicated to providing innovative and effective solutions for mental health challenges. Our team of experienced professionals is committed to delivering compassionate care, utilizing cutting-edge Transcranial Magnetic Stimulation (TMS) therapy.
             </p>
 
             <h1>Our Mission</h1>

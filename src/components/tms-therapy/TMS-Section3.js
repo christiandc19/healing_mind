@@ -16,7 +16,7 @@ const TMSSection3 = () => {
                     <p>You will remain awake during these short, non-convulsive, non-invasive procedures. They should not hurt, although some patients may have mild headaches or scalp discomfort. TMS does not cause memory loss, and your magnetic field exposure throughout the course of the treatment, which is less than you would receive from an MRI, is minimal.</p>
                     <br />
                     <p>
-                    Our patients report results such as improved mood, increased energy levels, improved diet and lifestyle choices, reduced anxiety, and much more. With Kings TMS Therapy Clinic, patients are able to begin reclaiming their lives, as many report regaining interest in daily activities. Kings TMS Therapy Clinic offers patients major conveniences such as extended hours and a convenient location in Los Angeles.</p>
+                    Our patients report results such as improved mood, increased energy levels, improved diet and lifestyle choices, reduced anxiety, and much more. With Healing Mind Therapy Clinic, patients are able to begin reclaiming their lives, as many report regaining interest in daily activities. Healing Mind Therapy Clinic offers patients major conveniences such as extended hours and a convenient location in Los Angeles.</p>
                     <br />
                 </div>
                 </Fade>

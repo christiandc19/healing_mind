@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
+import {AiFillCaretDown } from "react-icons/ai";
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/nav-logo-2.png'
 import logoIcon from '../../assets/nav-logo-icon.png'
 import nasal from '../../assets/nasal.png'
-
-import {AiFillCaretDown } from "react-icons/ai";
-// import Topbar from '../../components/topbar/Topbar';
+import { RiMenu3Line } from "react-icons/ri";
 
 import './NavbarStyles.css'
 
@@ -46,15 +45,13 @@ const Navbar = () => {
 
     return (
         <>
-        {/* <Topbar /> */}
-
         <div className='navbar' name="top">
 
-            <div className='nav-box container'>
+            <div className='nav-box '>
 
                 <div className="navbar-logo">
                     <Link to='/'>
-                            <img src={logo}  alt="Kings TMS" loading="lazy"/>
+                            <img src={logo}  alt="Healing Mind" loading="lazy"/>
                     </Link>
                 </div>
 
@@ -91,26 +88,7 @@ const Navbar = () => {
                     </li>
 
 
-
-
-
-
                     <li><Link to='/about-us'>About Us</Link> </li>
-
-
-
-
-
-                    {/* <div className="navbar-logo hide">
-                    <Link to='/'>
-                            <img src={logo}  alt="Kings TMS" loading="lazy"/>
-                    </Link>
-                    </div>   */}
-
-
-
-
-
 
                     <li><Link to='/insurance'>Insurance</Link></li>
                     <li><Link to='/faq'>FAQs</Link></li>
@@ -118,7 +96,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="hamburger" onClick={handleNav}>
-                    {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
+                    {!nav ? (<RiMenu3Line className='icon' />) : (<FaTimes className='icon' />)}
                 </div>
 
             </div>

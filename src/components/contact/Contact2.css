@@ -129,7 +129,7 @@
 }
 
 .contact-card {
-  width: 30%;
+  width: 20%;
   text-align: center;
   background-color: rgb(235, 244, 253);
   border-radius: 5px;
@@ -145,13 +145,10 @@
   text-transform: uppercase;
 }
 
-.card-icon {
-  width: 50px;
+.contact-card .card-icon h2 {
+  font-size: 2rem;
+  color: rgba(241, 141, 11, 0.726);
   margin:auto;
-}
-
-.card-icon img {
-  width: 100%;
 }
 
 

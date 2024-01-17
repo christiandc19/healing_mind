@@ -88,8 +88,8 @@
 
 
 .hero-btn button {
-  background-color: white;
-  color: black;
+  background-color: rgba(241, 141, 11, 0.726);
+  color: rgb(238, 231, 231);
   border: none;
   border-radius: 5px;
   padding: .8rem 2.5rem;

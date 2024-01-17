@@ -4,13 +4,13 @@ import Fade from 'react-reveal/Fade';
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 
-import insuranceSection3img from "../../assets/insuranceSection3.jpg";
+import insuranceSection3img from "../../assets/couple.webp";
 
 const InsuranceSection3 = () => {
   return (
     <>
       <div className="insuranceSection3 ">
-        <div className="insuranceSection3-content container">
+        <div className="insuranceSection3-content ">
 
           <div className="insuranceSection3-content-left">
           <img src={insuranceSection3img} alt="nurse" loading="lazy"/>
@@ -32,7 +32,7 @@ const InsuranceSection3 = () => {
           
           <Fade right>
             <p>
-            Kings TMS Therapy Clinic accepts most insurance plans including Medicare. Most of our patients receive coverage for transcranial magnetic stimulation (TMS) through their insurance providers.
+            Healing Mind Therapy Clinic accepts most insurance plans including Medicare. Most of our patients receive coverage for transcranial magnetic stimulation (TMS) through their insurance providers.
             Our staff is happy to assist you with determining whether your insurance plan covers TMS treatments, guiding you through the insurance process, and discussing your options.  <br />
             </p>
           </Fade>

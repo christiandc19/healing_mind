@@ -43,7 +43,7 @@
 
 
 .section1-right h1 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     padding: 1rem 0;
 }
@@ -87,5 +87,11 @@
         text-align: center;
     }
     
+}
+
+@media screen and (max-width:700px) {
+    .section1-right h1 {
+        font-size: 1rem;
+    }
 }
 

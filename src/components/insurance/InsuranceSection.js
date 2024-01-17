@@ -22,7 +22,7 @@ const InsuranceSection = () => {
                 <div>
                     <h1>INSURANCE</h1> <br />
                     <h2>WE WORK WITH MAJOR INSURANCE GROUPS</h2>
-                    <p>In today's rapidly changing healthcare landscape, access to quality medical care is a critical concern for individuals and families alike. At Kings TMS Therapy Clinic, we understand the importance of making healthcare services accessible and affordable. That's why we're proud to announce that we accept most insurance plans, ensuring that you receive the care you need without breaking the bank.</p>
+                    <p>In today's rapidly changing healthcare landscape, access to quality medical care is a critical concern for individuals and families alike. At Healing Mind Therapy Clinic, we understand the importance of making healthcare services accessible and affordable. That's why we're proud to announce that we accept most insurance plans, ensuring that you receive the care you need without breaking the bank.</p>
                 </div>
 
                 <div className="insurance-content ">

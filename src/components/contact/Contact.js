@@ -21,7 +21,7 @@ const Contact = () => {
                   <p>Have questions or want to learn more about our TMS therapy services? We look forward to being a part of your mental health journey.</p>
             </Fade>
             <Fade right>
-                  <h2>+1 (323) 319-6219</h2>
+                  <h2>+1 (323) 282-5838</h2>
             </Fade>
 
             </div>

@@ -8,10 +8,6 @@
     background: #10aac51c;
     position: absolute;
     text-align: center;
-    
-    /* -webkit-box-shadow: 0px 5px 21px -2px rgba(0, 0, 0, 0.25);
-    -moz-box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.25);
-    box-shadow: 0px 5px 21px -2px rgba(0,0,0,0.25); */
 }
 
 .nav-box {
@@ -19,10 +15,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2rem;
 }
 
 .nav-box ul {
-  margin: auto;
+  margin: auto 0;
 }
 
 .navbar-logo {
@@ -36,7 +33,7 @@
 }
 
 .navbar .icon {
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #fff;
 }
 
