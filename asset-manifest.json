@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/healing_mind/static/css/main.28fbee34.css",
-    "main.js": "/healing_mind/static/js/main.835c37f4.js",
+    "main.css": "/healing_mind/static/css/main.c714044c.css",
+    "main.js": "/healing_mind/static/js/main.f6afb864.js",
+    "static/media/couple.webp": "/healing_mind/static/media/couple.dd84078d5cd17f993e46.webp",
+    "static/media/esketamine-bg.webp": "/healing_mind/static/media/esketamine-bg.a5550a17ca07436f0634.webp",
     "static/media/apollo-tms-therapy-system-callouts-1.png": "/healing_mind/static/media/apollo-tms-therapy-system-callouts-1.4e89c68af0cbaa7464db.png",
     "static/media/nav-logo-icon.png": "/healing_mind/static/media/nav-logo-icon.2ff77c7055e53f1ca746.png",
     "static/media/gad7-bg.webp": "/healing_mind/static/media/gad7-bg.412f3e40870c25290996.webp",
     "static/media/man_smiling.webp": "/healing_mind/static/media/man_smiling.5ce0422eee62321b143c.webp",
     "static/media/tms-hero.webp": "/healing_mind/static/media/tms-hero.c19c687a65c189e64ab7.webp",
-    "static/media/mission-home-min.webp": "/healing_mind/static/media/mission-home-min.e8adbf85de774e038c69.webp",
     "static/media/bg2.png": "/healing_mind/static/media/bg2.e9ba0151939f11df6eac.png",
     "static/media/bg1.jpg": "/healing_mind/static/media/bg1.9548ae59ebd31a1725f5.jpg",
     "static/media/hero_1.webp": "/healing_mind/static/media/hero_1.91ee626301eb76780366.webp",
     "static/media/quiz.webp": "/healing_mind/static/media/quiz.bd142075f9db853e398a.webp",
     "static/media/hero_2.webp": "/healing_mind/static/media/hero_2.9e398c2ce8af14e24f7c.webp",
     "static/media/menu-bg-about-min.webp": "/healing_mind/static/media/menu-bg-about-min.c46e7b22ddaa4e2c7a72.webp",
-    "static/media/insuranceSection3.jpg": "/healing_mind/static/media/insuranceSection3.22c9ad7f5c7b87dd3309.jpg",
     "static/media/menu-bg-insurance-min.webp": "/healing_mind/static/media/menu-bg-insurance-min.00885a1f706320db4950.webp",
     "static/media/quiz2.webp": "/healing_mind/static/media/quiz2.39670b4855de4a985bd7.webp",
     "static/media/nav-logo-2.png": "/healing_mind/static/media/nav-logo-2.5789b97924d8819afd37.png",
@@ -27,14 +27,11 @@
     "static/media/nasal.png": "/healing_mind/static/media/nasal.34c3a0b72ac8ec910f41.png",
     "static/media/tms-section2.jpg": "/healing_mind/static/media/tms-section2.ae14d885b17d042653e7.jpg",
     "static/media/male_nurse.webp": "/healing_mind/static/media/male_nurse.fb7c4a5719c4904a1140.webp",
-    "static/media/esketamine-bg.webp": "/healing_mind/static/media/esketamine-bg.fb4d7ce9444001830bdb.webp",
     "static/media/quiz-bg.jpg": "/healing_mind/static/media/quiz-bg.c3f2b22ba0d31176e4af.jpg",
     "static/media/tms-section3.jpg": "/healing_mind/static/media/tms-section3.24f9e1a9c7a7537f4939.jpg",
     "static/media/doctor_downtime.webp": "/healing_mind/static/media/doctor_downtime.447d3a2ea7766670369c.webp",
+    "static/media/mission-home-min3.webp": "/healing_mind/static/media/mission-home-min3.242c8f7077ecb6ae6cda.webp",
     "static/media/faq1.jpg": "/healing_mind/static/media/faq1.651f603de406505db0f3.jpg",
-    "static/media/email.png": "/healing_mind/static/media/email.4c8c4e985cf41d92867e.png",
-    "static/media/pin.png": "/healing_mind/static/media/pin.05b058612dbc6eed375c.png",
-    "static/media/Call.png": "/healing_mind/static/media/Call.807bf1460c2eef91006e.png",
     "static/media/about-1.webp": "/healing_mind/static/media/about-1.28686ba706684402d148.webp",
     "static/media/magellan.png": "/healing_mind/static/media/magellan.d2edae680a01b7a09143.png",
     "static/media/anthem.png": "/healing_mind/static/media/anthem.29c70363ab5de045bf0c.png",
@@ -42,11 +39,11 @@
     "static/media/bluecross.png": "/healing_mind/static/media/bluecross.a8b419a74c5b7b107e63.png",
     "static/media/cigna.png": "/healing_mind/static/media/cigna.cd6bbebe3e8c464bea3d.png",
     "index.html": "/healing_mind/index.html",
-    "main.28fbee34.css.map": "/healing_mind/static/css/main.28fbee34.css.map",
-    "main.835c37f4.js.map": "/healing_mind/static/js/main.835c37f4.js.map"
+    "main.c714044c.css.map": "/healing_mind/static/css/main.c714044c.css.map",
+    "main.f6afb864.js.map": "/healing_mind/static/js/main.f6afb864.js.map"
   },
   "entrypoints": [
-    "static/css/main.28fbee34.css",
-    "static/js/main.835c37f4.js"
+    "static/css/main.c714044c.css",
+    "static/js/main.f6afb864.js"
   ]
 }
