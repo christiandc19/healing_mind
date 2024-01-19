@@ -1,5 +1,7 @@
 import React from "react";
 import ReactCompareImage from "react-compare-image";
+import { Link } from 'react-router-dom';
+import { Link as LinkRoll } from "react-scroll";
 
 
 import './BrainSliderSmall.css'
@@ -43,6 +45,15 @@ export default function App() {
         <div className="brainSliderSmall-content-bottom2 container">
             <p>For those diagnosed with depression, specific areas of the brain are known to be underactive. Stimulating these areas can improve the brain’s ability to regulate mood.</p>
         </div>
+
+        <div className='mission-btn'>
+              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                <Link to="/tms-therapy">
+                    <button>LEARN MORE</button>
+                </Link>
+              </LinkRoll>
+          </div>
+
 
     </div>
     </div>

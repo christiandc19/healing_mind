@@ -1,20 +1,9 @@
 .faq {
   width: 100%;
   height: auto;
-  position: relative;
-  background: rgba(29, 28, 29, 0);
-}
-
-.faq:before {
-  content: '';
-  position: absolute;
-  background: url('../../assets/bg2.png') no-repeat center center/cover;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  opacity: .06;
   padding: 3rem 0;
 }
+
 
 
 .faqSection {
@@ -82,7 +71,7 @@
 /*Question*/
 .question {
   position: relative;
-  background: rgb(153, 210, 233);
+  background: #4b9194;
   margin: 0;
   padding: 10px 10px 10px 50px;
   display: block;
@@ -138,6 +127,7 @@
   -moz-transition: .3s ease;
   -o-transition: .3s ease;
   transition: .3s ease;
+  color: white;
 
 }
 
@@ -146,7 +136,6 @@
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
-
 }
 
 .questions {

@@ -17,7 +17,7 @@ const MissionHome = () => {
             "It's time to feel better"
           </h2>
 
-          <div className='mission-btn'>
+          <div className='slider-btn'>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/contact">
                     <button>SCHEDULE AN APPOINTMENT</button>

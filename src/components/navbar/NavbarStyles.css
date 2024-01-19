@@ -86,7 +86,7 @@
   }
 
   .menu-item .sub__menus li a:hover {
-    color: rgb(41, 40, 40) !important;
+    color: rgb(241, 141, 11) !important;
   }
 
   li .submenu-header {
@@ -99,7 +99,7 @@
 
 
 .nav-main-flex {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.404);
   padding: 1px;
   border-radius: 10px;
 }
@@ -107,7 +107,7 @@
 .sub-flex {
   display: flex;
   width: 350px;
-  background-color: rgb(97, 177, 214);
+  background-color: #4b9194;
   border: 1px solid rgba(255, 255, 255, 0.486);
   border-radius: 5px;
   padding: 1rem;
