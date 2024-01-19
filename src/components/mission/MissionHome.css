@@ -8,22 +8,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background: #0000001a;
+  background: #0000003a;
   }
   
   .mission-home:before {
     content: '';
     position: absolute;
-    background: url('../../assets/mission-home-min3.webp') no-repeat center bottom/cover;
+    background: url('../../assets/mission-home-min.webp') no-repeat center bottom/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
-    /* background-attachment: fixed; */
   }
 
   .mission-home .mission-home-content  {
-    bottom: 30%;
-    left: 2%;
+    bottom: 20%;
+    right: 2%;
     height: max-content;
     position: absolute;
     text-align: left;
@@ -59,10 +58,18 @@
   text-align: center;
 }
 
+.mission-btn button {
+  background-color: rgba(241, 141, 11, 0.726);
+  color: rgb(238, 231, 231);
+  border: none;
+  border-radius: 5px;
+  padding: .8rem 2.5rem;
+  font-size: 1rem;
+}
+
 @media screen and (max-width:940px) {
 
   .mission-home .mission-home-content  {
-    top: 20%;
     left: 0%;
     width: 100%;
     padding: 1rem;

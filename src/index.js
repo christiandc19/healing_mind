@@ -9,7 +9,6 @@ import AboutPage from './routes/AboutPage'
 import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 import TMSTherapy from './routes/TMS-Therapy';
-import Apollo from './routes/ApolloPage';
 import NasalEsketamine from './routes/Nasal-Esketamine';
 import FAQ from './routes/FAQ';
 import Questionnaire from './routes/Questionnaire';
@@ -25,7 +24,6 @@ ReactDOM.render(
       <Route exact path='/' element={<App />} />
 
       <Route exact path='/tms-therapy' element={<TMSTherapy />} />
-      <Route exact path='/apollo' element={<Apollo />} />
       <Route exact path='/nasal-esketamine' element={<NasalEsketamine />} />
 
       <Route exact path='/faq' element={<FAQ />} />

@@ -48,9 +48,9 @@ const ContactForm = () => {
             <div className="contact-form2-bg">
               
             <div className="contactform2">
-                <div className="contact2-header contact2-container">
+                <div className="contact2-header contact2-container container">
                     <h1>DO YOU NEED URGENT HELP?</h1>
-                    <p>Our Support team is available to asssist you.</p>
+                    <p>Ready to take the next step towards a brighter future? Schedule an appointment with our experienced team at Healing Mind TMS Clinic. We are committed to providing personalized care to help you achieve mental wellness.</p>
                 </div>
 
 
@@ -98,6 +98,16 @@ const ContactForm = () => {
 
                       <div className="contact-cards">
 
+                          <div class="contact-card phone details">
+                            <div className="card-icon">
+                            <h2><FiPhone /></h2>
+                            </div>
+                            <h1>Phone/Fax</h1>
+                            <div class="text-one"><a href="tel:3232825838"> +1  (323) 282-5838</a></div>
+                            <p>Call our friendly staff to schedule an appointment or inquire about our services.</p>
+                          </div>
+
+
                           <div class="contact-card address details">
                             <div className="card-icon">
                               <h2><FiMapPin /></h2>
@@ -107,13 +117,6 @@ const ContactForm = () => {
                             <div class="text-two">Huntington Beach, CA 92647</div>
                           </div>
 
-                          <div class="contact-card phone details">
-                            <div className="card-icon">
-                            <h2><FiPhone /></h2>
-                            </div>
-                            <h1>Phone/Fax</h1>
-                            <div class="text-one"><a href="tel:3232825838"> +1  (323) 282-5838</a></div>
-                          </div>
 
                           <div class="contact-card email details">
                             <div className="card-icon">
@@ -121,6 +124,7 @@ const ContactForm = () => {
                             </div>
                             <h1>Email</h1>
                             <div class="text-one">info@healingmind.biz</div>
+                            <p>Have questions or need more information? Reach out to us, and our team will be happy to assist you.</p>
                           </div>
 
                       </div>

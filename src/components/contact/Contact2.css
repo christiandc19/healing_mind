@@ -118,10 +118,10 @@
 
 .contact-cards {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   padding: 3rem 0;
+
 }
 
 .phone a {
@@ -140,7 +140,7 @@
 }
 
 .contact-card h1 {
-  font-size: 1rem;
+  font-size: .9rem;
   padding: .5rem;
   text-transform: uppercase;
 }
@@ -151,6 +151,11 @@
   margin:auto;
 }
 
+.contact-card p {
+  padding: .5rem;
+  font-size: 12px;
+  font-style: italic;
+}
 
 .hidden {
   display: none;
@@ -170,10 +175,15 @@
 
 
 
-
-
-
 @media (max-width: 940px) {
+
+  .contact-cards {
+    flex-wrap: wrap;
+  }
+
+  .contact-card {
+    width: 90%;
+  }
 
   .contact2-container {
     padding: 1rem ;

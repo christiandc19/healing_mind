@@ -13,7 +13,6 @@
   .section2:before {
     content: '';
     position: absolute;
-    /* background: url('../../assets/bg3.png') no-repeat center center/cover; */
     height: 100%;
     width: 100%;
     z-index: -7;
@@ -28,8 +27,7 @@
 }
 
 .section2-content-right {
-    width: 600px;
-    text-align: center;
+    width: 550px;
     margin: auto;
 }
 
@@ -48,7 +46,7 @@
     text-align: justify;
     font-family: 'Roboto', sans-serif;
     color: var(--primary-text);
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .section2-content-left h1 {
@@ -62,13 +60,23 @@
     gap: 1rem;
 }
 
-.section2-btn button {
-    background-color: var(--primary-color);
-    color: white;
-    font-size: 13px;
-    margin: .5rem;
+.section2-btn2 button {
+    background-color: rgba(241, 141, 11, 0.726);
+    color: rgb(238, 231, 231);
+    border: none;
+    border-radius: 5px;
+    padding: .8rem 2.5rem;
+    font-size: 1rem;
 }
 
+.section2-btn1 button {
+    background-color: rgba(241, 141, 11, 0.726);
+    color: rgb(238, 231, 231);
+    border: none;
+    border-radius: 5px;
+    padding: .8rem 2.5rem;
+    font-size: 1rem;
+}
 
 
 @media screen and (max-width:940px) {

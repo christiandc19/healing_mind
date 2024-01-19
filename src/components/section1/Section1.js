@@ -5,7 +5,7 @@ import { Link as LinkRoll } from "react-scroll";
 import Fade from 'react-reveal/Fade';
 import Zoom from 'react-reveal/Zoom';
 
-import section1 from '../../assets/apollo-tms-therapy-system-callouts-1.png'
+import section1 from '../../assets/apollo.webp'
 
 const Section1 = () => {
   return (

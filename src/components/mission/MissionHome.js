@@ -20,7 +20,7 @@ const MissionHome = () => {
           <div className='mission-btn'>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/contact">
-                    <button>Contact Us</button>
+                    <button>SCHEDULE AN APPOINTMENT</button>
                 </Link>
               </LinkRoll>
           </div>
