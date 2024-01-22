@@ -27,8 +27,7 @@
 .FAQ .FAQ-content {
     display: block;
     position: absolute;
-    top: 40%;
-    left: 5%;
+    bottom: 30%;
     padding: 1rem;
 }
 

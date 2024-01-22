@@ -11,7 +11,7 @@ const TMSSection2 = () => {
             <div className='tms-section2-flex'>
                 <Fade left>
                 <div className='tms-section2-left'>
-                    <h1>What Is TMS?</h1>
+                    <h1>WHAT IS TMS?</h1>
                     <p>Transcranial magnetic stimulation (TMS) is one of the most effective procedures available for depression. It uses magnetic pulses to activate specific areas of your brain where low activity causes depression. TMS is an effective, safe, nonconvulsive, and noninvasive brain stimulation that has been in use since 1985 and has been approved by the Food and Drug Administration (FDA) since 2008.</p>
                     <br />
                     <p>What Is TMS?

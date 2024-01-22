@@ -22,7 +22,6 @@
   .TMSSection-wrap-content {
     padding: 5rem 0;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
   }
@@ -46,11 +45,12 @@
 }
 
 .TMSSection-right h1 {
-    text-align: center;
+    text-align: left;
+    font-size: 1rem;
 }
 
 .TMSSection-right p {
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
     color: rgb(19, 18, 18);
 }
@@ -58,7 +58,12 @@
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:940px) {
+
+    .TMSSection-wrap-content {
+        flex-wrap: wrap;
+      }
+
     .TMSSection-right {
         width: 100%;
         right: 0;

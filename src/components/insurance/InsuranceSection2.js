@@ -22,6 +22,8 @@ const InsuranceSection2 = () => {
                 <div>
                     <h1>INSURANCE</h1> <br />
                     <h2>WE WORK WITH MAJOR INSURANCE GROUPS</h2>
+                    <p>TMS (Transcranial Magnetic Stimulation) therapy may be covered by insurance in certain cases. However, coverage varies depending on factors such as the specific insurance plan, the diagnosed condition being treated, and whether other treatments have been unsuccessful.</p>
+                    <p>To determine if TMS therapy is covered by a specific insurance plan, it is recommended to contact the insurance provider directly. Insurance companies can provide information about their coverage policies, any pre-authorization requirements, and potential out-of-pocket costs for the individual seeking TMS therapy.</p>
                     <p>If you don’t see your insurance provider below, please reach out to us to find a way to assist you further.</p>
                 </div>
 

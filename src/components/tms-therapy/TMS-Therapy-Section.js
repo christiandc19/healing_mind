@@ -19,7 +19,7 @@ const TMSSection = () => {
 
     <Fade right>
     <div className="TMSSection-right">
-        <h1>How Does Healing Mind Therapy Work?</h1>        
+        <h1>HOW DOES HEALING MIND THERAPY WORKS?</h1>        
         <br/>
         <p>Transcranial magnetic stimulation (TMS) involves brief outpatient procedures. Our Healing Mind Therapy Clinic sessions do not cause significant disruption to your life. Each session lasts between 20 and 40 minutes. Most patients will attend five sessions per week over five to six weeks. Because TMS is a noninvasive outpatient procedure, you should be able to travel on your own to and from appointments and return to work or your usual routine immediately after the session. 
         <br /> <br />

@@ -4,7 +4,6 @@
 
 .tms-section2-flex {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
     gap: 1rem;
 }
@@ -16,11 +15,13 @@
 
 .tms-section2-left h1 {
     padding: 10px 0;
-    text-align: center;
+    text-align: left;
+    font-size: 1rem;
 }
 
 .tms-section2-left p {
     text-align: justify;
+    font-size: 14px;
 }
 
 .tms-section2-right {
@@ -35,7 +36,7 @@
 }
 
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:940px) {
 
     .tms-section2-flex {
         flex-wrap: wrap-reverse;
